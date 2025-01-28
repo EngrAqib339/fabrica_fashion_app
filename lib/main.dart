@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Views/splash_screen_view.dart';
+import 'Views/help_center_view.dart';
+//import 'views/help_center_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Fashion App',
+      title: 'Fabrica Fashion',
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const SplashScreenView(),
+      home: const HelpCenterView(),
     );
   }
 }
